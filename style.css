@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(250, 79, 107);
+  font-family: sans-serif;
+}
+.section-1 {
+  display: inline-block;
+  width: 20%;
+  padding: 6rem;
+  text-align: center;
+  background-color: rgb(200, 103, 118);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-right: -5px;
+  margin-left: 200px;
+  margin-top: 50px;
+  box-shadow: 20px 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+.section-2 {
+  display: inline-block;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 20%;
+  padding: 6rem;
+  text-align: center;
+  background-color: rgb(200, 103, 118);
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.player-active {
+  background-color: rgba(239, 150, 163);
+}
+.name {
+  margin-top: -20px;
+}
+.score {
+  color: rgb(247, 24, 24);
+  font-size: 50px;
+  margin: 0px;
+  margin-bottom: 70px;
+}
+.current-score-div {
+  background-color: rgb(195, 14, 80);
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 150px;
+  text-align: center;
+  margin-left: 15px;
+}
+.current-score-div p {
+  margin: 5px;
+  color: white;
+  font-size: small;
+}
+.current-score {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+.reset {
+  border-radius: 20px;
+  border: none;
+  padding: 10px 25px;
+  position: absolute;
+  top: 16%;
+  left: 43%;
+}
+.roll {
+  border-radius: 20px;
+  border: none;
+  padding: 8px 18px;
+  position: absolute;
+  top: 56%;
+  left: 43%;
+}
+.hold {
+  border-radius: 20px;
+  border: none;
+  padding: 8px 18px;
+  position: absolute;
+  top: 63%;
+  left: 44%;
+}
+.dice {
+  position: absolute;
+  width: 80px;
+  top: 33%;
+  left: 44.5%;
+}
+.hidden {
+  display: none;
+}
+.player-winner {
+  background-color: #000;
+}
+.player-winner .name {
+  color: #c7365f;
+}
